@@ -1,0 +1,26 @@
+
+package templates
+
+templ Layout(title string) {
+	<html>
+		<head>
+			<title>{ title }</title>
+			<script src="https://cdn.tailwindcss.com"></script>
+			<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+		</head>
+		<body>
+			<nav class="bg-gray-800 p-4">
+				<div class="container mx-auto flex justify-between">
+					<div class="flex space-x-4">
+						<a href="/" class="text-white">Home</a>
+						<a href="/projects" class="text-white">Projects</a>
+						<a href="/about" class="text-white">About</a>
+					</div>
+				</div>
+			</nav>
+			<main>
+				{ children... }
+			</main>
+		</body>
+	</html>
+}

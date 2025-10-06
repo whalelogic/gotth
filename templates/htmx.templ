@@ -1,0 +1,11 @@
+package templates
+
+templ HtmxButtonContent() {
+	<div class="p-4 mt-4 bg-green-100 border border-green-400 rounded">
+		<p>Content loaded successfully via an HTMX GET request!</p>
+	</div>
+}
+
+templ HtmxFormResult(name string) {
+	<p class="mt-4 text-lg">Hello, <strong>{ name }</strong>!</p>
+}
