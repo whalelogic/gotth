@@ -10,4 +10,7 @@ Feel free to use this template. Star my repo, please!
 
 This app features a barebones structure and three html pages (routes) built-in. 
 
-The app uses the TailwindCSS CDN or TailwindCSS CLI. 
+- Basic routes 
+- Forms
+- Buttons
+- POST Method demonstration with HTMX
